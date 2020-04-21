@@ -1,0 +1,16 @@
+function Arvore(n){
+
+let linha = '';
+espacos = '';
+
+ for(i=1;i<=n;i++){
+
+    linha = linha + '**' ;
+    espacos = espacos + ' '; 
+    console.log(espacos+linha) ;
+ }
+
+}
+
+
+Arvore(5);
